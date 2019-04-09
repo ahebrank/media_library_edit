@@ -88,7 +88,7 @@ function media_library_edit_field_widget_form_alter(&$element, FormStateInterfac
                 '#theme_wrappers' => [
                   'container' => [
                     '#attributes' => [
-                      'class' => ['action-links media-library-edit__action-links'],
+                      'class' => ['action-links', 'media-library-edit__action-links'],
                     ],
                   ],
                 ],
