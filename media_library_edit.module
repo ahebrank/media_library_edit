@@ -83,14 +83,8 @@ function media_library_edit_field_widget_form_alter(&$element, FormStateInterfac
                 '#title' => t('Edit media item'),
                 '#url' => $edit_url,
                 '#attributes' => [
-                  'class' => ['button'],
-                ],
-                '#theme_wrappers' => [
-                  'container' => [
-                    '#attributes' => [
-                      'class' => ['action-links', 'media-library-edit__action-links'],
-                    ],
-                  ],
+                  'class' => ['media-library-edit__link'],
+                  'target' => '_blank'
                 ],
                 '#attached' => [
                   'library' => [
