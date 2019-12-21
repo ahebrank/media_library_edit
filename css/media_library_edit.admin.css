@@ -3,8 +3,8 @@
   z-index: 1;
   top: 40px;
   right: 10px;
-  width: 24px;
-  height: 24px;
+  width: 21px;
+  height: 21px;
   margin: 5px;
   padding: 0;
   transition: 0.2s border-color;
@@ -12,7 +12,10 @@
   border: 2px solid #ccc;
   border-radius: 20px;
   background: url(../../../../core/misc/icons/787878/pencil.svg) #fff center no-repeat;
-  background-size: 16px 16px;
+  background-size: 13px;
   text-shadow: none;
   box-sizing: border-box;
 }
+  .media-library-edit__link:hover {
+    border-color: #40b6ff;
+  }
